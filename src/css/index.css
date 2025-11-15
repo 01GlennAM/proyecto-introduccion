@@ -5,7 +5,6 @@
     font-size: 16px;
     text-decoration: none;
     
-   
 }
 
 .header-container{
@@ -35,7 +34,40 @@
 
     .header-nav a{
         color: white;
+    }    
+}
+
+.main-container{
+    width: 100%;
+    height: calc(100vh - 120px) ; /* los 120 menos es por header-container */
+    background-color:#162c55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+    .main-titulo{
+     font-size: 70px;
+     color: white;
+    }
+    
+
+    .main-descripcion{
+        font-size: 30px;
+        color: #bee3ff;
+        margin-top: 10px;
+
+    }
+
+    .main-imagenes{
+        height: 60px;
+        display: flex;
+        gap: 15px;
     }
     
 }
+
+
+
 
