@@ -4,6 +4,7 @@
     color: black;
     font-size: 16px;
     text-decoration: none;
+    font-family: "Roboto Mono",monospace; /* muy buena letra para portafolios */
     
 }
 
@@ -48,8 +49,8 @@
     gap: 10px;
 
     .main-titulo{
-     font-size: 70px;
-     color: white;
+    font-size: 90px;
+    color: white;
     }
     
 
